@@ -1,0 +1,149 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "name": "crna-ts-nativebase-apollo-boilerplate",
+    "description": "Create-react-native-app + Typescript + Nativebase + Apollo => Boilerplate",
+    "slug": "expo.io/@your-username-slug",
+    "privacy": "public",
+    "version": "0.1.0",
+    "platforms": ["ios", "android"],
+    "githubUrl": "https://github.com/maplerichie/crna-ts-apollo-nativebase-boilerplate",
+    "orientation": "portrait",
+    "primaryColor": "#0765A1",
+    "icon": "./App/Assets/Icon/icon.png",
+    "appKey": "main",
+    "androidShowExponentNotificationInShellApp": false,
+    "scheme": "retan://",
+    "entryPoint": "./App.tsx",
+    "extra": {},
+    "rnCliPath": "",
+    "packagerOpts": {
+      "sourceExts": ["ts", "tsx"],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "ignoreNodeModulesValidation": false,
+    "nodeModulesPath": "",
+    "facebookAppId": "",
+    "facebookDisplayName": "RETAN",
+    "facebookScheme": "",
+    "locales": "en-US",
+    "assetBundlePatterns": [
+      "./App/Assets/Images/*"
+    ],
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0765A1"
+    },
+    "splash": {
+      "backgroundColor": "#0765A1",
+      "resizeMode": "contain",
+      "image": "./App/Assets/Splash/splash.png"
+    },
+    "notification": {
+      "icon": "./App/Assets/Icon/notification.png",
+      "color": "#0765A1",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "#{unread_notifications} new interactions"
+    },
+    "hooks": {
+      "postPublish": ""
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 30000
+    },
+    "ios": {
+      "bundleIdentifier": "com.github.boilerplate",
+      "buildNumber": "1",
+      "icon": "./App/Assets/Icon/icon.png",
+      "merchantId": "com.github.boilerplate",
+      "appStoreUrl": "com.github.boilerplate",
+      "supportsTablet": false,
+      "isTabletOnly": false,
+      "infoPlist": {},
+      "associatedDomains": [],
+      "useIcloudStorage": false,
+      "config": {
+        "branch": {
+          "apiKey": ""
+        },
+        "usesNonExemptEncryption": "",
+        "googleMapsApiKey": "",
+        "googleSignIn": "",
+        "reservedClientId": ""
+      },
+      "splash": {
+        "backgroundColor": "#0765A1",
+        "resizeMode": "contain",
+        "image": "./App/Assets/Splash/splash.png",
+        "tabletImage": "./App/Assets/Splash/splash.png"
+      }
+    },
+    "android": {
+      "package": "com.github.boilerplate",
+      "versionCode": 1,
+      "icon": "./App/Assets/Icon/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./App/Assets/Icon/icon.png",
+        "backgroundColor": "#0765A1",
+        "backgroundImage": "./App/Assets/Splash/splash.png"
+      },
+      "playStoreUrl": "com.github.boilerplate",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "MANAGE_DOCUMENTS",
+        "READ_CONTACTS",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO",
+        "USE_FINGERPRINT",
+        "VIBRATE",
+        "WAKE_LOCK",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.anddoes.launcher.permission.UPDATE_COUNT",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "com.htc.launcher.permission.READ_SETTINGS",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ],
+      "config": {
+        "branch": {
+          "apiKey": ""
+        },
+        "fabric": {
+          "apiKey": "",
+          "buildSecret": ""
+        },
+        "googleMaps": {
+          "apiKey": ""
+        },
+        "googleSignIn": {
+          "apiKey": "",
+          "certificateHash": ""
+        }
+      },
+      "splash": {
+        "backgroundColor": "#0765A1",
+        "resizeMode": "contain",
+        "ldpi": "./App/Assets/Splash/splash.png",
+        "mdpi": "./App/Assets/Splash/splash.png",
+        "hdpi": "./App/Assets/Splash/splash.png",
+        "xhdpi": "./App/Assets/Splash/splash.png",
+        "xxhdpi": "./App/Assets/Splash/splash.png",
+        "xxxhdpi": "./App/Assets/Splash/splash.png"
+      }
+    }
+  }
+}
